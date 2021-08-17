@@ -1,0 +1,114 @@
+/* 
+ * In order to implement the website to work in dark mode,
+ * the back-ground color will need to change to something
+ * darker such as black. To distinguish the sections from
+ * the body, sections can also be changed to slightly more
+ * lighter shaded colour like dim-grey or rgb(40, 40, 40).
+ * In order to make text visible, the font color will need
+ * to change to white. Further styling can also be done by
+ * changing font colors of different headings to colours
+ * like yellow or cyan.
+ * 
+ * Example:
+ *  
+ *  :root {
+ *      background-color: black;
+ *      color: white;
+ *  }
+ * 
+ *  section {
+ *       background-color: rgb(40, 40, 40);
+ *       border-radius: 10px;
+ *  }
+ * 
+ *  
+ */
+
+:root {
+    background-color: white;
+}
+
+body {
+    width : 88vw;
+    margin: auto;
+    height: 100%;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+li {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+h2, h3, h4, p {
+    margin-left: 15px;
+}
+
+body > section {
+    padding: 10px 0;
+}
+
+#personal-details {
+    margin-top: 10px;
+    float: left;
+    width:  30%;
+}
+
+#personal-details > h1 {
+    margin-top: 45px;
+    text-align: center;
+}
+
+#personal-details > img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#personal-details > p {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#personal-details p > img {
+    height: 25px;
+    width : 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#links {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+#links ul > li {
+    float: left;
+    margin-right: 40px;
+}
+
+#exp-summary {
+    float: left;
+    width: 70%;
+}
+
+#experience {
+    float: right;
+    width: 70%;
+}
+
+#skills {
+    float: left;
+    width: 30%;
+}
+
+#edu {
+    float: left;
+    clear: both;
+    width: 30%;
+}
